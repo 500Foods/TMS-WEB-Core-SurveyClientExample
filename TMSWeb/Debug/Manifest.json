@@ -1,0 +1,30 @@
+{
+   "short_name":"Project1",
+   "name":"Project1",
+   "description":"",
+   "start_url":"Project1.html",
+   "display":"fullscreen",
+   "theme_color":"#FFFFFF",
+   "background_color":"#FFFFFF",
+   "icons":
+   [
+    {
+      "src": "IconResLow.png",
+      "type": "image/png",
+      "sizes": "64x64",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "IconResMid.png",
+      "type": "image/png",
+      "sizes": "256x256",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "IconResHigh.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+   ]
+}

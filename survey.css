@@ -1,0 +1,40 @@
+html, body {
+  font-family: "Cairo";
+}
+
+#divMain {
+}
+
+
+/* Override some BS defaults */
+:root {
+  --bs-btn-disabled-opacity: 0.25 !important;
+}
+.btn {
+  --bs-btn-disabled-opacity: 0.25 !important;
+}
+
+
+/* Classes for content */
+.Title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--bs-primary);
+}
+.SubTitle {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--bs-primary);
+}
+
+/* Simple CSS transitions */
+.ShowTransition {
+  opacity: 1 !important;
+  transition: opacity 0.5s ease;
+  pointer-events: auto !important;
+}
+.HideTransition {
+  opacity: 0 !important;
+  transition: opacity 0.5s ease;
+  pointer-events: none !important;
+}
