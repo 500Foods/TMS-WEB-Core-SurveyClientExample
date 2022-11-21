@@ -93,6 +93,7 @@ type
     { Public declarations }
     AppVer: String;
     AppRel: String;
+    AppRelH: String;
     ActivityLog: TStringList;
     CountdownTimer: String;
     MainState : String;
@@ -282,15 +283,14 @@ begin
         ClientConn := TXDataWebClient.Create(nil);
         ClientConn.Connection := ServerConn;
         Response := await(ClientConn.RawInvokeAsync('ISurveyClientService.Feedback',[
-          ClientID,
           SurveyID,
+          ClientID,
+          'SC/'+Appver,
+          AppRel,
           FeedbackID,
           MemoFeedback.Lines.Text,
-          MainState+'/'+SurveyState,
-          SurveyName,
-          SurveyGroup,
-          ActivityLog.Text,
-          Length(ActivityLog.Text)
+          MainState+'/'+SurveyState+'/'+CurrentQuestionName,
+          ActivityLog.Text
         ]));
         Blob := Response.Result;
         Data := Blob;
@@ -771,7 +771,9 @@ begin
     try
       Response := await(ClientConn.RawInvokeAsync('ISurveyClientService.GetSurvey', [
         SurveyID,
-        ClientID
+        ClientID,
+        'SC/'+AppVer,
+        AppRel
       ]));
       Blob := Response.Result;
       Data := Blob;
@@ -951,7 +953,9 @@ begin
         Data := nil;
         Response := await(ClientConn.RawInvokeAsync('ISurveyClientService.GetQuestions', [
           SurveyID,
-          ClientID
+          ClientID,
+          'SC/'+AppVer,
+          AppRel
         ]));
         Blob := Response.Result;
         Data := Blob;
@@ -1099,13 +1103,26 @@ var
   Blob: JSValue;
   Data: JSValue;
   Elapsed: TDateTime;
+  Duration: String;
 begin
   Elapsed := Now;
 
   LogActivity('Saving Responses.');
 
+  // How much time has been spent on the survey so far?
+  asm
+    var start = luxon.DateTime.fromISO(this.SurveyStart);
+    var now = luxon.DateTime.now();
+    var coded = now.diff(start).shiftTo('hours','minutes','seconds','milliseconds').toObject();
+    Duration = String(coded['hours']).padStart(2,'0')+':'+String(coded['minutes']).padStart(2,'0')+':'+String(coded['seconds']).padStart(2,'0');
+  end;
+
   SurveyResponses['SurveyID'] := SurveyID;
   SurveyResponses['ClientID'] := ClientID;
+  SurveyResponses['Started']  := SurveyStart;
+  SurveyResponses['Finished'] := SurveyFinish;
+  SurveyResponses['Duration'] := Duration;
+
   SurveyResponses[Trim(QuestionID)+':'+Trim(QuestionName)] := ThisResponse;
 
   if TJSJSON.stringify(SurveyResponses) <> LastTransmission then
@@ -1120,7 +1137,10 @@ begin
           Response := await(ClientConn.RawInvokeAsync('ISurveyClientService.SaveResponses',[
             SurveyID,
             ClientID,
-            TJSJSON.stringify(SurveyResponses)
+            'SC/'+AppVer,
+            AppRel,
+            TJSJSON.stringify(SurveyResponses),
+            CurrentQuestionName
           ]));
           Blob := Response.Result;
           Data := Blob;
@@ -1198,26 +1218,27 @@ begin
   // Output Version Information
   asm
     this.AppVer = ProjectName.replaceAll('_','.').substr(ProjectName.indexOf('_')+1);
-    this.AppRel = document.lastModified;
+    this.AppRel = luxon.DateTime.fromJSDate(new Date(document.lastModified)).toISO();
+    this.AppRelH = luxon.DateTime.fromJSDate(new Date(document.lastModified)).toFormat('yyyy-MMM-dd');
   end;
 
   // Display in the UI in case nothing else is loaded
   divAboutContent.HTML.Text := '<div><pre>'+
                                  'AppVersion: '+AppVer+'<br />'+
-                                 'AppRelease: '+AppRel+'<br />'+
+                                 'AppRelease: '+AppRelH+'<br />'+
                                  'TMSWEBCore: '+Application.Version+
                                '</pre></div>';
 
   // Also display on the About page
-  labelAboutVersion.HTML := '<div style="font-size:12px;">Version<br />'+AppVer+'</div>';
-  labelAboutRelease.HTML := '<div style="font-size:12px;">Released<br />'+Copy(AppRel,1,Pos(' ',AppRel)-1)+'</div>';;
+  labelAboutVersion.HTML := '<div style="font-size:11px;">Version<br />'+AppVer+'</div>';
+  labelAboutRelease.HTML := '<div style="font-size:11px;">Released<br />'+AppRelH+'</div>';;
 
   // Initialize the Activity Log and add the version information
   ActivityLog := TStringList.Create;
   LogActivity('SurveyApp Initializing');
   LogActivity('');
   LogActivity('AppVersion: '+AppVer);
-  LogActivity('AppRelease: '+AppRel);
+  LogActivity('AppRelease: '+AppRelH);
   LogActivity('TMSWEBCore: '+Application.Version);
   LogActivity('');
 

@@ -72,12 +72,12 @@
         <Icns_MainIcns>$(BDS)\bin\delphi_PROJECTICNS.icns</Icns_MainIcns>
         <SanitizedProjectName>SurveyClient</SanitizedProjectName>
         <TMSPWAManifestFile>Manifest.json</TMSPWAManifestFile>
-        <TMSWebPWAServiceWorkerFile>ServiceWorker.js</TMSWebPWAServiceWorkerFile>
-        <TMSVersion>1.0.263</TMSVersion>
-        <TMSWebPWAResIconMidFile>IconResMid.png</TMSWebPWAResIconMidFile>
-        <TMSWebHTMLFile>Project1.html</TMSWebHTMLFile>
-        <TMSWebPWAResIconHighFile>IconResHigh.png</TMSWebPWAResIconHighFile>
         <TMSWebPWAResIconLowFile>IconResLow.png</TMSWebPWAResIconLowFile>
+        <TMSWebHTMLFile>Project1.html</TMSWebHTMLFile>
+        <TMSVersion>1.0.275</TMSVersion>
+        <TMSWebPWAServiceWorkerFile>ServiceWorker.js</TMSWebPWAServiceWorkerFile>
+        <TMSWebPWAResIconHighFile>IconResHigh.png</TMSWebPWAResIconHighFile>
+        <TMSWebPWAResIconMidFile>IconResMid.png</TMSWebPWAResIconMidFile>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Base_Win32)'!=''">
         <DCC_UsePackage>DBXSqliteDriver;RESTComponents;fmxase;DBXDb2Driver;DBXInterBaseDriver;FmxTeeUI926;TMSLogging;vclactnband;VCLTMSFNCChartPkgDXE12;vclFireDAC;emsclientfiredac;tethering;svnui;DataSnapFireDAC;FireDACADSDriver;DBXMSSQLDriver;TMSQueryStudio;TMSScripter;DatasnapConnectorsFreePascal;FireDACMSSQLDriver;JSExtend;vcltouch;rbUSERDesign2126;FMXTMSFNCUIPackPkgDXE12;vcldb;bindcompfmx;svn;TMSWEBCorePkgLibDXE12;DBXOracleDriver;inetdb;IcsFmxD103Run;CEF4Delphi;IcsVclD103Run;rbTC2126;TMSScripter_Memo;emsedge;fmx;FireDACIBDriver;fmxdae;vclib;rbBDE2126;FireDACDBXDriver;dbexpress;IndyCore;DCEF_XE5;xdata;vclx;dsnap;emsclient;DataSnapCommon;rbRCL2126;FireDACCommon;VCLTMSFNCUIPackPkgDXE12;RESTBackendComponents;DataSnapConnectors;VCLRESTComponents;soapserver;TMSScripter_Legacy;TMSScripter_VCL;vclie;FMXTeeDB926;bindengine;DBXMySQLDriver;CloudService;FireDACOracleDriver;FireDACMySQLDriver;DBXFirebirdDriver;CData.QuickBooksOnline.D26;remotedb;FireDACCommonODBC;FireDACCommonDriver;VCLTMSFNCCorePkgDXE12;DataSnapClient;inet;rbTCUI2126;IndyIPCommon;bindcompdbx;vcl;IndyIPServer;DBXSybaseASEDriver;sparkle;tmsbcl;IndySystem;FireDACDb2Driver;FMXTee926;dsnapcon;sphinx;FMXTMSFNCCorePkgDXE12;TMSWorkflow;FireDACMSAccDriver;fmxFireDAC;FireDACInfxDriver;vclimg;FireDAC;emshosting;FireDACSqliteDriver;FireDACPgDriver;ibmonitor;FireDACASADriver;advmemopkgdXE12;DBXOdbcDriver;FireDACTDataDriver;TMSDiagram;soaprtl;DbxCommonDriver;ibxpress;DataSnapServer;xmlrtl;soapmidas;DataSnapNativeClient;fmxobj;vclwinx;FireDACDSDriver;rtl;emsserverresource;DbxClientDriver;ibxbindings;DBXSybaseASADriver;TMSScripter_IDE;CustomIPTransport;vcldsnap;rbIDE2126;bindcomp;appanalytics;DBXInformixDriver;IndyIPClient;EurekaLogCore;rbCloudSC2126;bindcompvcl;IcsCommonD103Run;TMSCryptoPkgDXE12;rbUSER2126;dclTMSQueryStudio;TMSWEBCorePkgDXE12;dbxcds;VclSmp;adortl;FireDACODBCDriver;VCLTMSFNCWXPackPkgDXE12;DataSnapIndy10ServerTransport;aurelius;dsnapxml;DataSnapProviderClient;dbrtl;IndyProtocols;inetdbxpress;FireDACMongoDBDriver;TMSCryptoPkgDEDXE12;FMXTMSFNCChartPkgDXE12;DataSnapServerMidas;$(DCC_UsePackage)</DCC_UsePackage>

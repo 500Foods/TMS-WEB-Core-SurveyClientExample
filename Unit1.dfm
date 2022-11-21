@@ -338,7 +338,7 @@ object Form1: TForm1
         Caption = 'Version'
         ElementClassName = 
           'd-flex justify-content-center order-0 pt-2 text-primary opacity-' +
-          '75 lh-1'
+          '75 lh-sm'
         ElementID = 'labelAboutVersion'
         ElementFont = efCSS
         ElementPosition = epIgnore
@@ -357,7 +357,7 @@ object Form1: TForm1
         ChildOrder = 2
         ElementClassName = 
           'd-flex justify-content-center order-2 pt-2 text-primary opacity-' +
-          '75 lh-1'
+          '75 lh-sm'
         ElementID = 'labelAboutRelease'
         ElementFont = efCSS
         ElementPosition = epIgnore

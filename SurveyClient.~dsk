@@ -18,8 +18,8 @@ File_13=TSourceModule,'C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Proje
 Module0=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas
 Module1=default.htm
 Module2=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj
-Module3=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
-Module4=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html
+Module3=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html
+Module4=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
 Count=5
 EditWindowCount=1
 
@@ -32,10 +32,10 @@ ModuleType=TURLModule
 [C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj]
 ModuleType=TBaseProject
 
-[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css]
+[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html]
 ModuleType=TSourceModule
 
-[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html]
+[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css]
 ModuleType=TSourceModule
 
 [EditWindow0]
@@ -104,9 +104,9 @@ EditViewName=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WE
 [View3]
 CustomEditViewType=TEditView
 Module=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas
-CursorX=74
-CursorY=1043
-TopLine=1028
+CursorX=20
+CursorY=1124
+TopLine=1076
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -115,9 +115,9 @@ EditViewName=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WE
 [View4]
 CustomEditViewType=TEditView
 Module=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
-CursorX=53
-CursorY=106
-TopLine=95
+CursorX=34
+CursorY=63
+TopLine=54
 LeftCol=1
 Elisions=
 Bookmarks=

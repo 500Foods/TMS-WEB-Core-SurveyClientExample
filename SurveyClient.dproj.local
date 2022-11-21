@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.899,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\IconResLow.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.366,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\ServiceWorker.js=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\ServiceWorker.js</Transaction>
     <Transaction>1899-12-30 00:00:00.000.840,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\IconResHigh.png</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.790,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.dproj</Transaction>
     <Transaction>1899-12-30 00:00:00.000.369,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\IconResLow.png</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.dfm</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.345,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\IconResHigh.png</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.188,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.877,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.dproj=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.html=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.html</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.925,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Untitled1.css</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.827,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Untitled1.css=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.861,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\IconResMid.png</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.339,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\ServiceWorker.js</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.366,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\ServiceWorker.js=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\ServiceWorker.js</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.750,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Manifest.json=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Manifest.json</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.333,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Manifest.json</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.002,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Project1.html=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.html=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.html</Transaction>
     <Transaction>1899-12-30 00:00:00.000.982,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Project1.html</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.345,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\IconResHigh.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.188,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.790,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.dproj=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.dfm=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.899,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\IconResLow.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.877,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.002,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Project1.html</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.861,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\IconResMid.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.827,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Untitled1.css</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.339,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\ServiceWorker.js</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.333,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Manifest.json</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.750,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Manifest.json=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Manifest.json</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.732,C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899-12-30 00:00:00.000.353,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\IconResMid.png</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.925,=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Untitled1.css</Transaction>
   </Transactions>
 </BorlandProject>

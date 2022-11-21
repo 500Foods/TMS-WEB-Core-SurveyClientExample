@@ -16,27 +16,27 @@ File_13=TSourceModule,'C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Proje
 
 [Modules]
 Module0=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas
-Module1=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj
-Module2=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
+Module1=default.htm
+Module2=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj
 Module3=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html
-Module4=default.htm
+Module4=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
 Count=5
 EditWindowCount=1
 
 [C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas]
 ModuleType=TSourceModule
 
+[default.htm]
+ModuleType=TURLModule
+
 [C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\SurveyClient.dproj]
 ModuleType=TBaseProject
-
-[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css]
-ModuleType=TSourceModule
 
 [C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Project1.html]
 ModuleType=TSourceModule
 
-[default.htm]
-ModuleType=TURLModule
+[C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css]
+ModuleType=TSourceModule
 
 [EditWindow0]
 ViewCount=5
@@ -104,9 +104,9 @@ EditViewName=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WE
 [View3]
 CustomEditViewType=TEditView
 Module=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\Unit1.pas
-CursorX=33
-CursorY=1111
-TopLine=1075
+CursorX=20
+CursorY=1124
+TopLine=1076
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -115,9 +115,9 @@ EditViewName=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WE
 [View4]
 CustomEditViewType=TEditView
 Module=C:\Users\Andrew Simard\Documents\Embarcadero\Studio\Projects\TMS-WEB-Core-SurveyClientExample\survey.css
-CursorX=53
-CursorY=106
-TopLine=95
+CursorX=34
+CursorY=63
+TopLine=54
 LeftCol=1
 Elisions=
 Bookmarks=
@@ -180,14 +180,14 @@ Create=1
 Visible=1
 Docked=0
 State=2
-Left=146
-Top=269
-Width=8932
-Height=8519
+Left=0
+Top=0
+Width=10083
+Height=10154
 MaxLeft=-5
 MaxTop=-10
-MaxWidth=8932
-MaxHeight=8519
+MaxWidth=10083
+MaxHeight=10154
 ClientWidth=10021
 ClientHeight=9788
 BottomPanelSize=8963
@@ -263,8 +263,8 @@ Width=1786
 Height=6115
 MaxLeft=-5
 MaxTop=-10
-ClientWidth=1703
-ClientHeight=5740
+ClientWidth=1724
+ClientHeight=5750
 TBDockHeight=6115
 LRDockWidth=1786
 Dockable=1
