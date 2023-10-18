@@ -3,7 +3,7 @@ This is a component of the [TMS WEB Core](https://www.tmssoftware.com/site/tmswe
 
 1. [Survey Server](https://github.com/500Foods/TMS-XData-SurveyServerExample) (REST API implemented with TMS XData)
 2. [Survey Admin Client](https://github.com/500Foods/TMS-Web-Core-SurveyAdminClient) (web app implemented with TMS WEB Core)
-3. [Survey Client](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample) (web app implemented with TMS WEB Core)
+3. [Survey Client Example](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample) (web app implemented with TMS WEB Core)
 
 The project first appeared as a mini-series on the [TMS Software Blog](https://www.tmssoftware.com/site/blog.asp). The first of the three parts is available [here](https://www.tmssoftware.com/site/tmswebcore.asp).
 
