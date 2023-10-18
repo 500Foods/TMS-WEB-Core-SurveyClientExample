@@ -1,4 +1,11 @@
 # TMS-WEB-Core-SurveyClientExample
+This is a TMS WEB Core (Delphi) project that implements the client portion of a web-based survey app. The complete set includes the following.
+
+1. Survey Server (REST API implemented with TMS XData)
+2. Survey Admin Client (web app implemented with TMS WEB Core)
+3. Survey Client (web app implemented with TMS WEB Core)
+
+The complete project first appeared as a mini-series on the TMS Software Blog. The first part is available [here](https://www.tmssoftware.com/site/tmswebcore.asp).
 
 ## Repository Informatiom
 [![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample/actions/workflows/main.yml)
