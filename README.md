@@ -11,7 +11,7 @@ The project first appeared as a mini-series on the [TMS Software Blog](https://w
 [![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-SurveyClientExample/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last Updated at 2023-11-27 02:22:25 UTC
+Last Updated at 2023-12-24 05:14:48 UTC
 -------------------------------------------------------------------------------
 Language                     files          blank        comment           code
 -------------------------------------------------------------------------------
@@ -21,10 +21,10 @@ CSS                              1             23             16            189
 HTML                             2              7              5             39
 YAML                             2              8             12             33
 JSON                             1              0              0             30
+Markdown                         1              5              2             29
 JavaScript                       1              3              0             25
-Markdown                         1              4              2             24
 -------------------------------------------------------------------------------
-SUM:                            11            252            216           1983
+SUM:                            11            253            216           1988
 -------------------------------------------------------------------------------
 ```
 <!--CLOC-END-->
